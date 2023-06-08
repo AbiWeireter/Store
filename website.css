@@ -1,0 +1,91 @@
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    overflower: 0;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFB6C1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+  }
+
+  li a:hover {
+    background-color: #ba797d;
+  }
+
+.box {
+    height:10px;
+    background-color: white;
+    font-size:36px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('https://cdn.shabbyfabrics.com/image/800x800/pid-148937-f-beminevalentine-c12788-white-8x8.jpg?1678469961');
+    /* Full height */
+    height: 75%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  float: left;
+  margin: 50px 25px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
